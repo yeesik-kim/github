@@ -1,4 +1,4 @@
-module github.com/yeesik-kim/spinnaker
+module github.com/yeesik-kim/github/spinnaker
 
 go 1.19
 
