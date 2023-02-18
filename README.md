@@ -26,4 +26,4 @@ func main() {
 * my github username, my github token : spinnaker branch를 가져오기 위한 계정 정보
 * my github url : spinnaker branch를 당겨올 나의 repository url
 * spinnaker module url : spinnaker target url
-* my github username, my github token : 나의 respoistory 계정 
+* my github username, my github token : 나의 respoistory 계정 정보
