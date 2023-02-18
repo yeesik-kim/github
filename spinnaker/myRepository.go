@@ -19,7 +19,7 @@ type MyInfo struct {
 	Password     string
 }
 
-func (myInfo *MyInfo) pushRelease(branchName string) {
+func (myInfo *MyInfo) PushRelease(branchName string) {
 	fs := memfs.New()
 	storer := memory.NewStorage()
 	r, err := git.Clone(storer, fs, &git.CloneOptions{

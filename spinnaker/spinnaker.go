@@ -22,7 +22,7 @@ type RepositInfo struct {
 	Password   string
 }
 
-func (rInfo *RepositInfo) getBranchNames(version string) []string {
+func (rInfo *RepositInfo) GetBranchNames(version string) []string {
 	branchNames := []string{}
 	index := 1
 	for index < 10 {
