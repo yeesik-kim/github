@@ -25,7 +25,7 @@ func (myInfo *MyInfo) pushRelease(branchName string) {
 	r, err := git.Clone(storer, fs, &git.CloneOptions{
 		URL: myInfo.MyUrl,
 		Auth: &goHttp.BasicAuth{
-			Username: myInfo.UserName, // anything except an empty string
+			Username: myInfo.UserName,
 			Password: myInfo.Password,
 		},
 	})
